@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fr">
+	<head><meta charset="utf-8">
+	<title>Salle sport</title>
+	<link rel="stylesheet" href="inscription.css" />
+	
+	</head>
+	
+	<body>
+		<form method="post" action="index.php"></form>
+            <p>
+			<ul>
+			<li> <a href="index.html"> Acceuil</a></li>
+			<li> <a href="inscription.html"> Inscription</a></li>
+			</ul>
+			</p>
+	<h1>Bienvenue à Mo GYM</h1>
+	<form>
+	<table>
+	<tr>
+		<td class="contact"> <label>Nom</label></td>
+		<td class="colonne2"> <input type="text" placeholder="Nom de la branche" id = "nom" onblur = "testNom();"/></td>
+	</tr>
+	
+	<tr>
+		<td class="contact"> <label>Ville</label></td>
+		<td class="colonne2"> <input type="text" placeholder="votre ville" id = "ville" onblur = "testVille();"/></td>
+	</tr>
+
+	<tr>
+		<td class="contact"> <label>Adresse</label></td>
+		<td class="colonne2"> <input type="text" placeholder="votre adresse" id = "adrs" onblur = "testAdresse();"/></td>
+	</tr>
+	
+	<tr>
+		<td class="contact"> <label>Mail</label></td>
+		<td class="colonne2"> <input type="email" placeholder="votre email" id = "email" onblur = "testMail();"/></td>
+	</tr>
+	
+	
+	<tr>
+		<td class="contact"> <label>URL</label></td>
+		<td class="colonne2"> <input type="url" placeholder="votre url" id = "lien" onblur = "testLien();"></td>
+	</tr>
+	
+	<tr>
+		<td class="contact"> <label>Numero de téléphonne</label></td>
+		<td class="colonne2"> <input type="number" placeholder="Tel" maxlength=8 id="nbr" onblur="testNum();"/></td>
+	</tr>
+	
+	<tr>
+		<td class="contact1"> <label>Cliquez ici pour enregistrer</label></td>
+		<td class="colonne2"> <input type="submit" value="Enregistrer" /> </td>
+	</tr>
+
+	<tr> 
+		<td colspan="2"><input type="submit"  id="submit" name="" value="S'inscrire">
+		</td>
+	</tr>
+	</table>
+	
+	
+	
+	</form>
+	</body>
+</html>

@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign up | Template</title>
+    <link rel="stylesheet" href="css/style.css">
+	<script src="authentification.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <img class="user-icon" src="img/default-user.png" alt="avatar">
+        <h1>Sign up</h1>
+        <form  action="">
+
+            <label for="user">Numero de telephone</label>
+            <input type="text" name="user" id="" placeholder="Numero de telephone" id="tel" onBlur="testerTel(this.id);">
+
+            <label for="password">Mot de passe</label>
+            <input type="password" name="password" id="" placeholder="Entrer votre mot de passe" id="password" onBlur="testerpass(ths.id);">
+
+            <label for="password">Confirmer le mot de passe</label>
+            <input type="password" name="re-password" id="" placeholder="Confirmer le mot de passe"  id="re-password" onBlur="retesterpass(this.id);">
+
+          
+            <input type="submit" value="S'inscrire" onclick="valider();">
+            <a href="C:\Users\hp\Documents\Mi3ad\login.html">Vous avez déjà un compte?</a>
+
+        </form>
+
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

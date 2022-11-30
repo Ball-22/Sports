@@ -1,0 +1,377 @@
+*,
+::before,
+::after {
+   box-sizing:border-box ;
+   margin: 0;
+   padding: 0;
+
+}
+
+body,
+button {
+
+    background: #ececec;
+    font-family:"conforta", cursive;
+
+}
+nav{
+    width: 100%;
+    height:70px;
+    background: #000;
+
+}
+
+nav a{
+       color:antiquewhite;
+       font-size: 20px;
+       text-decoration: none;
+       text-transform: uppercase;
+       font: weight 600px; ;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(109, 130, 88);
+    width: 100%;
+    height:100%;
+    list-style-type: style type none;
+
+}
+
+nav li{
+    margin: 0 15px;
+
+}
+@media  screen and (max-width: 550px){
+          nav li {
+            margin: 0 8px;
+          }
+}
+nav a{
+    font-size: 15px;
+    
+}
+.hero{
+       height: 700px;
+       background: red;
+       display: flex;
+       overflow: hidden;
+
+}
+
+.home-left {
+          position: relative;
+          width:40%;
+          background: #212121;
+          height: 100%;
+          box-shadow:90px 0 100px 100px #212121 ;
+
+
+}
+
+h1 {
+
+    color: #f1f1f1;
+    font-size: 90px ;
+    padding-top: 150px;
+    padding-bottom: 20px;
+    margin-left: 8vw;
+    white-space: nowrap;
+}
+.hero p {
+    color: #f1f1f1;
+    font-size: 30px;
+    width: 600px;
+    margin-left:8vw;
+    line-height:1,5;
+}
+
+.btn-hero{
+
+    display: flex;
+}
+    
+.btn-home{
+    font-size: 20px;
+    text-align: center;
+    color: #f1f1f1;
+    background: #ff6129;
+    padding: 15px;
+    text-decoration: none;
+    margin-top: 40px ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-home:hover{
+    color: #212121;
+    background: #ffb13d;
+    transition: all 0.3 ease;
+}
+
+.b1{
+     margin-left: 8vw;
+}
+
+.b2{
+     margin-left: 10px;
+
+}
+.home-right{
+    background-image: url(img/girl.jpg);
+    width: 60%;
+    height: 100%;
+    background-position: 60% 25%;
+}
+
+@media screen and(max-witdh: 1350px) {
+    .home-left {
+        width: 50%;
+
+    }
+}
+    .home-right{
+
+    background-position: 35% 20%;
+}
+    @media screen and (max-width: 950px){
+          h1 {
+            font-size: 80px;
+            
+          }
+        }
+@media screen and (max-width: 750px) {
+         .hero{
+            height: 600px;
+         }
+
+         h1 {
+            font-size: 60px;
+            margin-bottom: 10px;
+         }
+
+    
+}        
+          .hero p{
+            font-size  :18 px;
+          margin-bottom: 10px;
+          }
+    .btn-home{
+        font-size: 16px;
+        padding: 12px 18px;
+        margin-top: 20px;
+    }
+
+    
+    @media screen and (max-width: 550px){
+        .hero{
+             height: 450px;
+
+
+        }
+        h1{
+            font-size: 50px;
+            padding-top: 100px;
+            margin: left 2vw;
+
+        }
+        .hero p{
+            font-size: 16;
+            margin-left: 2vw;
+            margin-bottom: 15px;
+
+        }
+        .btn-home{
+               padding: 8px 10px;
+               font-size: 14px;
+
+        }
+        .b1{
+            margin-left: 2vw;
+
+        }
+        .b2{
+            margin-left: 10px;
+        }
+        .home-left{
+            box-shadow: 50px 0 100px 100px #000;
+            width: 50%;
+        }
+    }
+
+            /*  INFO */
+.section-title {
+
+    color: #000;
+    text-align: center;
+    font-size: 65px;
+    padding: 100px 50px 180px;
+    text-transform: uppercase;
+
+}
+.info-section{
+          display:flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          width: 100%;
+          margin: 0 auto;
+          background: #f1f1f1;
+          position: relative;
+}
+.info-card{
+
+    width:350px;
+    height:auto;
+    margin: 0 20px 80px;
+    box-shadow: 0 10px 30px regba(0, 0, 0,0.1);
+
+}
+
+.container-info-photo img{
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        
+}
+
+.info-card h2{
+      color: #000;
+      text-align: center;
+      font-size: 24px;
+      padding: 20px  5px;
+}
+
+.info-card p{
+
+    color: rgb(129, 98, 98);
+    font-size: 20px;
+    text-align: center;
+    padding: 0 20px 20px;
+
+@media  screen and  (max-width: 1000px){
+
+    .section-title{
+        font-size: 50px;
+    }
+}
+    
+}
+
+
+@media screen  and (max-width: 550px){
+  .section-title{
+      font-size: 30px;
+      padding: 40px 20px 40px;
+    
+}
+.info-card{
+
+    margin: 0 10px 45px;
+
+}
+
+  /*choice */
+  #choice {
+      background: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .training-choice{
+         color: #fff;
+         width: 30%;
+         text-align: center;
+         margin: 50px 20px 70px;
+  }
+  .training-choice h3 {
+    font-size: 45px ;
+    margin-bottom: 20px;
+  }
+  .training-choice p {
+
+    font-size: 20px;
+    width: 70%;
+    margin:0 auto 30px;
+  }
+
+  .btn-outline-choice {
+    width: 300px;
+    padding:15px;
+    font-size: 20px;
+    Background: #00999d;
+    border: 1px solid #00999d;
+    color: #000;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+
+  }
+  .btn-outline-chice {
+            transition: all 0.2s all ease-in-out;
+            background:  #000;
+            color: #00999d;
+
+             
+  }
+
+  .context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
+
+
+}
+
+
+    
+
+
+
+
